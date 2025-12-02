@@ -1,0 +1,16 @@
+[font.normal]
+family = "SFMono Nerd Font"
+style = "Regular"
+
+[window]
+decorations = "Buttonless"         # or "None", "Transparent", "Buttonless"
+opacity = 0.95               # optional, slight transparency
+startup_mode = "Windowed"    # or "Maximized", "Fullscreen"
+padding = { x = 0, y = 5 }   # x = left/right, y = top/bottom
+# dynamic_padding = true       # optional: spread extra padding evenly
+
+
+[scrolling]
+history = 100000   # number of lines kept in scrollback; 0 disables scrollback
+multiplier = 3     # how many lines per scroll 'step' (mouse wheel etc.)
+
