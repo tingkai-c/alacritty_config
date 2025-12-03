@@ -14,3 +14,8 @@ padding = { x = 0, y = 5 }   # x = left/right, y = top/bottom
 history = 100000   # number of lines kept in scrollback; 0 disables scrollback
 multiplier = 3     # how many lines per scroll 'step' (mouse wheel etc.)
 
+
+[[keyboard.bindings]]
+key = "W"
+mods = "Command"
+action = "Quit"
